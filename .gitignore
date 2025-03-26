@@ -1,0 +1,15 @@
+vars.sql
+vars-local.sql
+vars-local-a.sql
+vars-local-b.sql
+vars-remote.sql
+vars-remote-a.sql
+vars-remote-b.sql
+connect.sql
+connect-local.sql
+connect-remote.sql
+ses-status.sql
+tc06_prep.sh
+test_env.sh
+vars-queues.sql
+NOTES.txt

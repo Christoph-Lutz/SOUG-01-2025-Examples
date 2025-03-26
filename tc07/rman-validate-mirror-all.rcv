@@ -1,0 +1,8 @@
+connect target /
+
+run 
+{
+  allocate channel c1 device type disk;
+  validate datafile '+DATA9901/TCTEST19_99011/F9D9E3F32962E000E053C44313C655DF/DATAFILE/users.504.1168644253' mirror all;
+  select * from v$database_block_corruption;
+}
