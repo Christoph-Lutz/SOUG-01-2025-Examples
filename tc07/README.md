@@ -89,14 +89,14 @@ rman target /
 ```
 
 8. On ASM instance: scrub the datafile using default settings
-**Note:** Run the scrub command on the ASM instance.
+<br>**Note:** Run the scrub command on the ASM instance.
 ```
 alter diskgroup <DISK_GROUP> scrub file '<DATAFILE>' power high;
 alter diskgroup <DISK_GROUP> scrub file '<DATAFILE>' repair power high;
 ```
 
 9. On ASM instance: scrub and repair the datafile using "_asm_enable_repair_lostwrite_scrub"=true
-**Note:** Run the scrub command on the ASM instance.
+<br>**Note:** Run the scrub command on the ASM instance.
 ```
 alter system set "_asm_enable_repair_lostwrite_scrub"=true scope=memory;
 
