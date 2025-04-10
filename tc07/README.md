@@ -6,7 +6,7 @@
 connect / as sysdba
 
 alter system set db_lost_write_protect=none scope=memory sid='*';
-`` 
+``` 
 
 2. On database: create a new test table and take note of the block number
 ```
